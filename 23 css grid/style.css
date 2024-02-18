@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: aqua;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: bisque;
+    margin: 25px;
+}
+
+.box1{
+   grid-row: 2/3;  /* means start from 2 row and last till 3 row  */
+    grid-column: 2/3;/* means start from 2 column and last till 3 column  */
+
+    /* note apply above both to replace the element */
+}
+
+.box2{
+   grid-row: 3/4;
+   grid-column: 3/-1;
+}
+
+.box3{
+
+    grid-row: 3/4;
+   
+}
+
+.box4{
+   grid-column: 2/3;
+}
+
+.box5{
+   grid-row: 2/-2;
+   grid-column: 3/-2;
+}

@@ -1,0 +1,30 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.background{
+    background-color: aqua;
+}
+
+.color{
+    color: blue;
+}
+
+.rgbcolor{
+    color: rgb(14, 181, 67);
+}
+
+.hexcolor{
+    color: #c3e89e;
+
+    /* google for hex color */
+}
+
+.border{
+    background-color: bisque;
+    height: 300px;
+    border: 2px solid red;
+
+    /* refer border notes for more information */
+}

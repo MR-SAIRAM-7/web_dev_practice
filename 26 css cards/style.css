@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(45, 44, 44);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    border: 3px solid aqua;
+    height: 70vh;
+    width: 20vw;
+    background-color: white;
+    border-radius: 15px;
+    background: url(microsoft\ logo.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    object-position: bottom;
+}
+ /* .card h2{
+    justify-content: center;
+    align-items: center;
+ } */
+.card:hover {
+    transition: 1s;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 35px aqua;
+    cursor: pointer;
+    /* margin-bottom: 10px;
+    margin-right: 10px; */
+}
+
+body:hover {
+    transition: 1s;
+    background-color: black;
+}

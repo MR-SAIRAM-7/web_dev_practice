@@ -1,0 +1,62 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    background-color:bisque;
+}
+
+h1{
+    font-family: cursive;
+    background-color: white;
+}
+
+.font1{
+    /* font-weight: ; */
+    /* line-height: ; */
+    /* font-style: ; */
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px
+    
+    
+ }
+
+ .font2{
+     /* font-weight: ; */
+    color: blueviolet;
+    font-family: 'Salsa', cursive;
+    /* font family link imported at top of style sheet */
+    font-size: 25px;
+ }
+
+ .text1,.text2 ,.text3 ,.text4, .text5{
+    border: 2px solid red;
+ }
+
+ .text1{
+    text-align: right;
+    text-decoration: none;
+ }
+
+ .text2{
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+ .text3{
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: lowercase;
+ }
+
+ .text4{
+    text-align: justify;
+    text-decoration: wavy underline;
+    text-transform: capitalize;
+ }

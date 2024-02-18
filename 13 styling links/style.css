@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    border: 2px solid rgb(78, 220, 220);
+    background-color: rgb(78, 220, 220);
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 12px;
+}
+
+.links{
+    border: 2px solid rgb(151, 112, 214);
+    background-color: rgb(151, 112, 214);
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.links a{
+     margin: 25px;
+    color: white;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.links a:hover{
+    
+    background-color: rgb(213, 10, 253);
+    border-radius: 5px;
+    
+}

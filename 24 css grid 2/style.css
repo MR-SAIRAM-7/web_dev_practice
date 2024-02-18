@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: aqua;
+    text-align: center;
+    margin-top: 15px;
+}
+
+h2{
+    background-color: aqua;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* .nav{
+ display: grid;
+
+ 
+
+}
+
+.navitems{
+    
+    
+}
+
+.navitems  li{
+    list-style: none;
+} */
+
+
+/* .nav {
+    display: grid;
+    grid-template-areas: 
+        "home about search apply contact";
+}
+
+.navitems div:nth-child(1) {
+    grid-area: home;
+}
+
+.navitems div:nth-child(2) {
+    grid-area: about;
+}
+
+.navitems div:nth-child(3) {
+    grid-area: search;
+}
+
+.navitems div:nth-child(4) {
+    grid-area: apply;
+}
+
+.navitems div:nth-child(5) {
+    grid-area: contact;
+} */

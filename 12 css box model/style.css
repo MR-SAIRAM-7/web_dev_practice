@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border: 2px solid red;
+}
+
+.pad{
+    border: 2px solid red;
+    padding: 25px;
+}
+
+/* padding is used to get information or adjust the given information inside the border */
+
+
+.box1{
+    border: 2px solid red;
+}
+
+.margin{
+    border: 2px solid red;
+    margin: 25px;
+}
+
+/* margin is used to get space between anything. example between two borders */
+
+ /* .box{
+
+    padding-top: padding is applied from top side;
+    padding-bottom:  padding is applied from bottom side;
+    padding-left:  padding is applied from left side;
+    padding-right: padding is applied from right side ;
+
+    
+ 
+
+ /* .box{
+
+    margin -top: margin  is applied from top side;
+    margin -bottom:  margin  is applied from bottom side;
+    margin -left:  margin  is applied from left side;
+    margin -right: margin  is applied from right  side;
+
+
+ } */
+
+ .box2{
+    border: 3px solid black;
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+ }
+ .box3{
+    border: 3px solid black;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+ }
+
+ /* instead of getting 50 px margin from both boxes respective margins we will w=get only 30px margin in between them or whichever is higher margin this phenomenon is called margin collapse you can chect it in inspect element box model */
+
+ .box-sizing{
+    border: 3px solid rebeccapurple;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+ }
+
+ /* box sizing is used to fix the padding margin height and width given to the border / or an element other wise it will not adjust with padding  */

@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    background-color: aqua;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.static {
+    position: static;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.relative {
+    position: relative;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-left: 113px;
+}
+
+.parent{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    /* display: flex;
+    margin-left: 113px;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+
+}
+
+.fixed{
+
+    position: fixed;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-left: 113px;
+
+}
+
+.sticky{
+
+    position: sticky;
+    top: 0px;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-left: 253px;
+
+}
+
+.parentabs{
+    border: 2px solid red;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.abs{
+    display: flex;
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+.abs{
+    margin-top: 50px;
+
+
+
+   /* justify-content: center;
+   align-items: center;*/
+   /* does not work here this but works on parent container*/
+
+
+
+
+   /* position absolute means it will adjust with respect to its parent conatiner */
+
+   /* position relative means it will adjust with respect to body of html */
+}
+
+.abs:hover{
+    border-radius: 50%;
+}

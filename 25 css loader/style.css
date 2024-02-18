@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.loader {
+    border-top: 5px solid aqua;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* box-shadow: 1px 1px 0.2px aqua; */
+    animation: loader 0.5s linear infinite;
+}
+
+@keyframes loader {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}

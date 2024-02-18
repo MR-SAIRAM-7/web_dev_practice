@@ -1,0 +1,22 @@
+/*   *{
+    margin: 0;
+padding: 0;
+} */
+
+.bg{
+  border: 2px solid black;
+  height: 100vh;
+  width:  100vw;
+  background-color: azure;
+  background: url(ultra-detailed-nebula-abstract-wallpaper-4_1562-749.avif);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /* refer notes for backgroung properties this */
+  
+  /* object-fit: cover; */
+  /* object-position: top right;
+  object-position: top left;
+  object-position: bottom right;
+  object-position: bottom left; */
+}
