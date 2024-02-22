@@ -18,6 +18,8 @@ console.log(y); // y is accessible here
 
 // if - else statements
 
+// if else are used to execute a particular block of code or perform a particular task if given condition is true
+
 let x = 2;
 let z =5;
 
