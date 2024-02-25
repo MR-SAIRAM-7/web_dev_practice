@@ -46,7 +46,7 @@ function get(name = "Guest"){
 }
 
 // get() // hello guest! no value passed means it will print default value 
-get("Sairam"); // hello saira,
+get("Sairam"); // hello sairam
 
 let nice = (name) => {console.log("Hey "+ name + " you are nice");}
  nice("sairam")
