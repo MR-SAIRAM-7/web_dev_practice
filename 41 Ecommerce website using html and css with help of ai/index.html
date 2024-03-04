@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="shortcut icon" href="assests/logo1.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="assests/logo1.png" alt="Company Logo">
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Today deals</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to E-commerce Store</h1>
+            <p>Apna Dukaan</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+
+
+    <!-- Product Categories Section -->
+    <div>
+        <h2>Explore Our Categories</h2>
+    </div>
+
+    <section class="categories">
+
+
+
+        <div class="container-1">
+
+
+
+            <div class="category">
+                <div><img src="assests/box1_image.jpg" alt="Category 1"></div>
+                <div>
+                    <h3>Clothing</h3>
+                </div>
+                <div class="shop-now1"><a href="#">Shop Now</a></div>
+            </div>
+
+
+            <div class="category">
+                <div><img src="assests/box2_image.jpg" alt="Category 2"></div>
+                <div>
+                    <h3>Daily use</h3>
+                </div>
+                <div><a href="#">Shop Now</a></div>
+            </div>
+
+            <div class="category">
+                <div><img src="assests/box3_image.jpg" alt="Category 2"></div>
+                <div>
+                    <h3>Furniture</h3>
+                </div>
+                <div><a href="#">Shop Now</a></div>
+            </div>
+
+            <div class="category">
+                <div><img src="assests/box4_image.jpg" alt="Category 2"></div>
+                <div>
+                    <h3>Electronics</h3>
+                </div>
+                <div><a href="#">Shop Now</a></div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <section class="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product">
+                <img src="assests/box5_image.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$99.99</p>
+                <div class="shop-now1"><a href="#">Shop Now</a></div>
+            </div>
+            <div class="product">
+                <img src="assests/box6_image.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$49.99</p>
+                <div class="shop-now1"><a href="#">Shop Now</a></div>
+            </div>
+            <div class="product">
+                <img src="assests/box3_image.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$49.99</p>
+                <div class="shop-now1"><a href="#">Shop Now</a></div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <div class="cart-container">
+        <h1>Shopping Cart</h1>
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Image</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Subtotal</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mobile Name</td>
+                    <td><img src="assests/box4_image.jpg" alt="Product Image"></td>
+                    <td>
+                        <input type="number" class="quantity-input" value="1" min="1">
+                    </td>
+                    <td>$99.99</td>
+                    <td>$99.99</td>
+                    <td>
+                        <button class="remove-btn">Remove</button>
+                    </td>
+                </tr>
+                <!-- Add more rows for additional products -->
+            </tbody>
+        </table>
+
+        <div class="cart-totals">
+            <p>Subtotal: $99.99</p>
+            <p>Tax: $9.00</p>
+            <p>Total: $108.99</p>
+        </div>
+
+        <div class="checkout-button">
+            <button>Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h2>Contact us</h2>
+    </div>
+
+    <section class="contact-section">
+
+        <div class="form">
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <div>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="mobile">Mobile Number:</label>
+                    <div>
+                        <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <div>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="age">Age:</label>
+                    <div><input type="number" id="age" name="age" placeholder="Enter your age" required></div>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <div>
+                        <textarea id="message" name="message" placeholder="Enter your message"
+                            maxlength="100"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" class="submit">Submit</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p>&copy; 2024 Your E-commerce Store. All rights reserved.</p>
+        </div>
+        <div>
+            <p>Designed and developed by SaiRam and ai.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
