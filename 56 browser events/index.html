@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            height: 100px;
+            width: 100px;
+        }
+        input{
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Browser events</h1>
+
+    <div class="container" onmouseenter="console.log('hello world')">
+        <button onclick="alert('your computer is going to blast')">click me!!</button>
+    </div>
+
+    <div class="container1">
+        <button>click me 1 !!</button>
+    </div>
+
+    <input type="button" value="hey" onclick="alert('hiiii')">
+
+    <script src="script.js"></script>
+</body>
+</html>
