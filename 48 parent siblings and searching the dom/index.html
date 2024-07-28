@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+        .box{
+            display: flex;
+        }
+        .qury{
+            height: 125px;
+            width: 125px;
+            background-color: black;
+            margin: 10px;
+            display: flex;
+            color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="title">Parents siblings and searching the dom</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, vel sed. Error, sapiente praesentium culpa
+        labore deserunt sit quas officia nostrum molestias assumenda quasi nulla eius rem incidunt reprehenderit
+        distinctio officiis odio voluptas!</p>
+
+        <h1 class="title-class">Table navigation</h1> 
+    <table  id="myTable">
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 3, Cell 1</td>
+                <td>Row 3, Cell 2</td>
+                <td>Row 3, Cell 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="box">
+    <div class="qury">1</div>
+    <div class="qury">2</div>
+    <div class="qury">3</div>
+    <div class="qury">4</div>
+    <div class="qury">5</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
