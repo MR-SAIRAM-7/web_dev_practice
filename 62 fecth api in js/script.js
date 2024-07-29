@@ -81,3 +81,6 @@ async function postData() {
 // Call the async function
 postData();
 
+
+// --------------------refer mdn website and notes----------------------
+
