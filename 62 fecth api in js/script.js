@@ -33,3 +33,51 @@ fetch("https://goweather.herokuapp.com/weather/Ny")
         // Handle errors that occurred during the fetch or response processing
         console.error('Fetch error:', error);
     });
+
+// request headers 
+// request headers are available in response.headers
+
+// let res = fetch(url,{
+//     headers:{
+//         authentication:'secret'
+//     }
+// })
+
+//sending post request
+
+
+const url = 'https://example.com/api'; // Replace with your actual URL
+
+// Use an async function to handle the fetch request
+async function postData() {
+    try {
+        // Make a POST request with fetch
+        let res = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json' 
+            },
+            body: JSON.stringify({
+                "a": "harry" // Convert the body to a JSON string
+            })
+        });
+
+        // Check if the response is OK
+        if (!res.ok) {
+            throw new Error('Network response was not ok');
+        }
+
+        // Parse the JSON response
+        let result = await res.json();
+
+        console.log(result);
+
+    } catch (error) {
+        // Handle any errors
+        console.error('Fetch error:', error);
+    }
+}
+
+// Call the async function
+postData();
+
