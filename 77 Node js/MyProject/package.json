@@ -1,0 +1,11 @@
+{
+  "name": "test-npm-package",
+  "version": "7.7.7",
+  "description": "npm init is used to create package-json file and this is how it is created ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sairam",
+  "license": "ISC"
+}
