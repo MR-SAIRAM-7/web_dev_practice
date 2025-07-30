@@ -1,0 +1,14 @@
+.Product{
+    justify-self: center;
+    border: 1px solid black;
+    margin-top: 15px;
+    border-radius: 24px;
+    width: 252px;
+    height: 180px;
+    margin: 5px;
+    text-align: center;
+}
+
+.Product>.Price{
+    align-items: center;
+}
